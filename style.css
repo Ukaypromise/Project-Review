@@ -1,0 +1,51 @@
+body {
+  background-image: linear-gradient(to right, grey, black);
+}
+
+#navbar {
+  position: fixed;
+  border: 5px solid black;
+  width: 98%;
+  text-align: right;
+  background-color: rgb(99, 99, 99);
+}
+
+#welcome-section {
+  background-image: linear-gradient(to right, grey, black);
+  height: 100%;
+  width: 100%;
+  margin-top: 0px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 77px;
+}
+
+h1 {
+  background: -webkit-linear-gradient(white, grey);
+  -webkit-text-fill-color: transparent;
+}
+
+h1:hover {
+  text-shadow: 3px 3px 5px rgba(181, 186, 147, 0.3);
+}
+
+#navbar a {
+  display: inline;
+  text-decoration: none;
+  color: white;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+
+#navbar form {
+  width: 250px;
+  margin-left: 15px;
+  display: inline;
+}
+
+@media only screen and (width: 600px) {
+  body {
+    background-color: white;
+  }
+}
